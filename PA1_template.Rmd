@@ -8,6 +8,7 @@ output: html_document
 
 ```{r, echo = TRUE}
 library(tidyverse)
+library(knitr)
 ```
 
 ## Loading and preprocessing the data
@@ -182,3 +183,5 @@ stepsMean_perInterval_filled %>% ggplot(aes(x = interval, y = stepsMean)) +
 ```
 
 The activity patterns between weekdays and weekends look different.
+
+
