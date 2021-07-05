@@ -183,6 +183,6 @@ stepsMean_perInterval_filled %>% ggplot(aes(x = interval, y = stepsMean)) +
 
 ```
 
-The activity patterns between weekdays and weekends look different.
+
 
 
